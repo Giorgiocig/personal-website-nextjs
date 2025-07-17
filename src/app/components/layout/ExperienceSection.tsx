@@ -80,7 +80,7 @@ const ExperienceSection: React.FC = () => {
           <div className="flex flex-col items-center space-y-16">
             <div className="relative">
               <div className="w-4 h-4 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-full border-4 border-white shadow-lg" />
-              <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-center">
+              <div className="absolute -bottom-4.5 left-10 transform -translate-x-1/2 text-center">
                 <p className="text-sm font-semibold text-emerald-600">
                   {new Date().getFullYear()}
                 </p>
@@ -90,7 +90,7 @@ const ExperienceSection: React.FC = () => {
 
             <div className="relative">
               <div className="w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-4 border-white shadow-lg" />
-              <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-center">
+              <div className="absolute -bottom-8 left-10 transform -translate-x-1/2 text-center">
                 <p className="text-sm font-semibold text-blue-600">
                   {new Date().getFullYear() - 6}
                 </p>
