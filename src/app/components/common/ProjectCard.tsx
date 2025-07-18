@@ -1,5 +1,5 @@
 import React from "react";
-import { ExternalLink, Github, LucideIcon } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;

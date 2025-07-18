@@ -4,26 +4,26 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: Code,
-      title: "Sviluppatore Appassionato",
+      title: "Passionate Developer",
       description:
-        "Amo creare soluzioni innovative che risolvono problemi reali",
+        "I love building innovative solutions that solve real-world problems.",
     },
     {
       icon: User,
       title: "Team Player",
       description:
-        "Credo nella collaborazione e nella condivisione delle conoscenze",
+        "I believe in collaboration and the power of shared knowledge.",
     },
     {
       icon: Heart,
       title: "Lifelong Learner",
       description:
-        "Sempre in cerca di nuove tecnologie e metodologie da esplorare",
+        "Always on the lookout for new technologies and methodologies to explore.",
     },
     {
       icon: Coffee,
       title: "Problem Solver",
-      description: "Trasformo il caffè in codice e le idee in realtà",
+      description: "I turn coffee into code and ideas into reality.",
     },
   ];
 
@@ -34,7 +34,7 @@ const AboutSection = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              Chi Sono
+              Who I am
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary/60 mx-auto mb-6"></div>
           </div>
