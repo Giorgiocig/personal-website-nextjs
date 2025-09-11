@@ -50,11 +50,11 @@ const SkillsSection: React.FC = () => {
             <Wrench className="w-8 h-8 text-white" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-4">
-            Le Mie Competenze
+            My technical skills
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Una panoramica delle tecnologie e strumenti che utilizzo per creare
-            esperienze digitali eccezionali
+            An overview of the technologies and tools I use to create
+            exceptional digital experiences
           </p>
         </div>
 

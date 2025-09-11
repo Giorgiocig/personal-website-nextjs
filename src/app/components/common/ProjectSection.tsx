@@ -1,70 +1,61 @@
 import React from "react";
 import { Code, Folder, Rocket } from "lucide-react";
 import ProjectCard from "./ProjectCard";
-
+import covidDashboardImg from "../../../../public/react dashboard.webp";
+import streetBoulderTrackerImg from "../../../../public/streetBoulderTracker.webp";
+import webscraperImg from "../../../../public/webscraper.webp";
+import iceCreamImg from "../../../../public/myicecream.webp";
+import personalPortfolioImg from "../../../../public/personalWbsite.webp";
 const projects = [
   {
-    title: "Dashboard Analytics",
+    title: "Covid-19 Dashboard",
     description:
-      "Una dashboard completa per l'analisi dei dati con visualizzazioni interattive, grafici in tempo reale e reportistica avanzata. Sviluppata con React e D3.js.",
-    technologies: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-    githubUrl: "#",
+      "Developed a comprehensive dashboard for the interactive analysis and visualization of data from the COVID-19 API. The project was built using React for the user interface and React-Plotly.js for data visualization.",
+    technologies: ["React", "TypeScript", "React-Plotly.js"],
+    image: covidDashboardImg,
+    githubUrl: "https://github.com/Giorgiocig/covid-dashboard",
     liveUrl: "#",
   },
   {
-    title: "E-commerce Platform",
+    title: "Street Boulder Tracker",
     description:
-      "Piattaforma e-commerce moderna con gestione inventario, pagamenti integrati e dashboard amministrativa. Include sistema di raccomandazioni basato su ML.",
-    technologies: ["Next.js", "Tailwind CSS", "Stripe", "MongoDB", "Redis"],
-    image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-    githubUrl: "#",
-    liveUrl: "#",
-  },
-  {
-    title: "Data Science Pipeline",
-    description:
-      "Pipeline automatizzata per l'elaborazione e analisi di grandi dataset. Include preprocessing, feature engineering e modelli di machine learning.",
+      "full-stack web application designed to simplify the management of bouldering problems during a street bouldering event. It allows organizers to create events, add and manage boulder problems, and visualize them on an interactive map and list. Built with modern technologies, it aims to streamline the setup and tracking process for grassroots climbing competitions.",
     technologies: [
-      "Python",
-      "Pandas",
-      "Scikit-learn",
+      "React",
+      "MaterialUI",
+      "PostgreSQL",
+      "NestJS",
+      "Prisma",
       "Docker",
-      "Apache Airflow",
     ],
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-    githubUrl: "#",
-  },
-  {
-    title: "Mobile Task Manager",
-    description:
-      "App mobile per la gestione delle attività con sincronizzazione cloud, notifiche push e collaborazione in team. UI/UX ottimizzata per produttività.",
-    technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
-    image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=300&fit=crop",
-    githubUrl: "#",
+    image: streetBoulderTrackerImg,
+    githubUrl: "https://github.com/Giorgiocig/street-boulder-tracker",
     liveUrl: "#",
   },
   {
-    title: "API Gateway Service",
+    title: "Jobwatch Webscraper",
     description:
-      "Microservizio gateway per gestione API con autenticazione, rate limiting, caching e monitoraggio. Architettura scalabile e performante.",
-    technologies: ["Node.js", "Express", "Redis", "JWT", "Docker", "AWS"],
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=300&fit=crop",
-    githubUrl: "#",
+      "Jobwatch webscraper is a Python application to retrieve data of job offers from APEC and Hellowork websites and send them to S3 server. Selenium Python is used to perform scraping and collect data. ",
+    technologies: ["Python", "Selenium"],
+    image: webscraperImg,
+    githubUrl: "https://github.com/Giorgiocig/jobwatch-webscraper",
   },
   {
-    title: "Portfolio Interattivo",
+    title: "My Ice Cream e-Commerce",
     description:
-      "Portfolio personale con animazioni fluide, tema scuro/chiaro e sezioni interattive. Ottimizzato per performance e SEO.",
+      "Jamstack application that leverages Strapi's CMS for seamless content updates and integrates with the Shopify Storefront API to provide a comprehensive e-commerce experience.",
+    technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
+    image: iceCreamImg,
+    githubUrl: "https://github.com/Giorgiocig/ice-cream-e-commerce",
+    liveUrl: "#",
+  },
+  {
+    title: "Personal portfolio",
+    description:
+      "Personal portfolio with smooth animations and interactive sections. Optimized for performance.",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-    image:
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-    githubUrl: "#",
+    image: personalPortfolioImg,
+    githubUrl: "https://github.com/Giorgiocig/personal-website-nextjs",
     liveUrl: "#",
   },
 ];
@@ -79,11 +70,11 @@ const ProjectsSection: React.FC = () => {
             <Rocket className="w-8 h-8 text-white" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-4">
-            I Miei Progetti
+            My projects{" "}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Una selezione dei progetti più significativi che ho sviluppato,
-            dalle applicazioni web ai sistemi di data science
+            A selection of the most significant projects I have developed, from
+            full-stack web applications to data analysis
           </p>
         </div>
 
@@ -92,9 +83,6 @@ const ProjectsSection: React.FC = () => {
           className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in"
           style={{ animationDelay: "200ms" }}
         >
-          <button className="px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-all duration-300 hover:scale-105">
-            Tutti i Progetti
-          </button>
           <button className="px-6 py-3 rounded-full bg-background/80 backdrop-blur-sm border border-border hover:bg-accent transition-all duration-300 hover:scale-105">
             Web Development
           </button>

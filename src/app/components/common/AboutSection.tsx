@@ -45,45 +45,45 @@ const AboutSection = () => {
             <div className="space-y-6">
               <div className="prose prose-lg">
                 <p className="text-muted-foreground text-lg leading-relaxed">
-                  Ciao! Sono{" "}
-                  <span className="font-semibold text-foreground">Marco</span>,
-                  un Data Scientist e Developer con una passione per
-                  l'innovazione tecnologica e l'analisi dei dati.
+                  Hello! I am{" "}
+                  <span className="font-semibold text-foreground">Giorgio</span>
+                  , Data analyst and web developer with a passion for
+                  technological innovation and data analysis .
                 </p>
 
                 <p className="text-muted-foreground leading-relaxed">
-                  La mia journey nel mondo tech è iniziata con la curiosità di
-                  capire come i dati possano raccontare storie significative.
-                  Oggi combino competenze in machine learning, sviluppo software
-                  e analisi statistica per creare soluzioni che hanno un impatto
-                  reale.
+                  My journey in the tech world began with developing scripts for
+                  data analysis and data visualization for my doctoral thesis.
+                  Today, I combine data analysis methodology with web
+                  development to create high-performance solutions with a focus
+                  on UX.
                 </p>
 
                 <p className="text-muted-foreground leading-relaxed">
-                  Quando non sto programmando, mi piace esplorare nuove
-                  tecnologie, contribuire a progetti open source e condividere
-                  le mie conoscenze con la community.
+                  When I'm not programming, I like to explore new technologies,
+                  contribute to open source projects, and share my knowledge
+                  with the community
                 </p>
               </div>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 pt-6 border-t border-border">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">3+</div>
+                  <div className="text-2xl font-bold text-primary">5+</div>
                   <div className="text-sm text-muted-foreground">
-                    Anni di Esperienza
+                    Years of experience
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">50+</div>
+                  <div className="text-2xl font-bold text-primary">20+</div>
                   <div className="text-sm text-muted-foreground">
-                    Progetti Completati
+                    Completed Projects
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">10+</div>
+                  <div className="text-2xl font-bold text-primary">15+</div>
                   <div className="text-sm text-muted-foreground">
-                    Tecnologie Utilizzate
+                    Tecgnologies used
                   </div>
                 </div>
               </div>

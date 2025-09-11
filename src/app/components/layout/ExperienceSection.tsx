@@ -6,30 +6,27 @@ const experiences = [
   {
     company: "Cénotélie",
     position: "Software Developer",
-    duration: "3 anni",
-    location: "Francia",
+    duration: "3 years",
+    location: "France",
     description:
-      "Sviluppo di soluzioni software innovative per clienti enterprise, con focus su progetti interni e collaborazioni strategiche con aziende leader nel settore energetico e aerospaziale.",
+      "Developed innovative software solutions for enterprise clients in the energy and aerospace sectors. Built and maintained internal projects, including custom eLearning platforms. Managed the development and ongoing maintenance of the company's corporate website and the Rustacean blog.",
     projects: [
-      "Progetti interni per Engie - Soluzioni energetiche digitali",
-      "Sviluppo software per Collins Aerospace - Sistemi aeronautici",
-      "Implementazione di architetture scalabili e performanti",
-      "Collaborazione in team internazionali e multidisciplinari",
+      "Network Editor and OgisToNemo modules for NEMO platform - ENGIE digital",
+      "Artefact editor for eCollab platform - Collins",
+      "Development and test of company website",
+      "Development and test of Rustacean Blog",
     ],
     icon: Building2,
   },
   {
-    company: "Università",
-    position: "Dottorando in Ricerca",
-    duration: "3 anni",
-    location: "Italia",
+    company: "Univesity of Montpellier",
+    position: "PhD",
+    duration: "3 years",
+    location: "Italy",
     description:
-      "Esperienza di ricerca approfondita nel campo della data science, con specializzazione in analisi dati e visualizzazione. Sviluppo di competenze avanzate in Python per la ricerca scientifica.",
+      "Extensive research experience in the field of neuroscience. Developing Python skills for data analysis and data visualization in scientific research.",
     projects: [
-      "Data Analysis con Python - Librerie pandas, numpy, matplotlib",
-      "Data Visualization - Matplotlib, seaborn, plotly",
-      "Project management",
-      "Analisi statistica",
+      "Development of Python scripts for data analysis and data visualization for the analysis of experimental data for thesis work",
     ],
     icon: GraduationCap,
   },
@@ -45,11 +42,11 @@ const ExperienceSection: React.FC = () => {
             <Briefcase className="w-8 h-8 text-white" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-4">
-            Esperienza Professionale
+            Professional Experience
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Il mio percorso professionale e accademico, dalla ricerca
-            universitaria allo sviluppo software enterprise
+            My professional and academic career, from university research to
+            enterprise software development
           </p>
         </div>
 
@@ -84,7 +81,7 @@ const ExperienceSection: React.FC = () => {
                 <p className="text-sm font-semibold text-emerald-600">
                   {new Date().getFullYear()}
                 </p>
-                <p className="text-xs text-gray-500">Presente</p>
+                <p className="text-xs text-gray-500">Present</p>
               </div>
             </div>
 
@@ -94,7 +91,7 @@ const ExperienceSection: React.FC = () => {
                 <p className="text-sm font-semibold text-blue-600">
                   {new Date().getFullYear() - 6}
                 </p>
-                <p className="text-xs text-gray-500">Inizio Dottorato</p>
+                <p className="text-xs text-gray-500">Start PhD</p>
               </div>
             </div>
           </div>
@@ -109,19 +106,19 @@ const ExperienceSection: React.FC = () => {
             <div className="text-4xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent mb-2">
               6+
             </div>
-            <p className="text-gray-600 font-medium">Anni di Esperienza</p>
+            <p className="text-gray-600 font-medium">Years of experience</p>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               2
             </div>
-            <p className="text-gray-600 font-medium">Settori di Esperienza</p>
+            <p className="text-gray-600 font-medium">Sectors of experience</p>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-emerald-600 bg-clip-text text-transparent mb-2">
               100%
             </div>
-            <p className="text-gray-600 font-medium">Progetti Completati</p>
+            <p className="text-gray-600 font-medium">Project completed</p>
           </div>
         </div>
       </div>

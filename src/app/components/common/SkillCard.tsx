@@ -43,7 +43,7 @@ const SkillCard: React.FC<SkillCardProps> = ({
 
         <div className="space-y-2">
           <div className="flex justify-between text-sm">
-            <span className="text-gray-600">Competenza</span>
+            <span className="text-gray-600">Proficiency</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
             <div

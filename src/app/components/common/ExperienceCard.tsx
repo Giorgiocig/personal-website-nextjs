@@ -57,7 +57,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
         {/* Projects */}
         <div>
           <h4 className="text-sm font-semibold text-gray-800 mb-3 uppercase tracking-wide">
-            Progetti Principali
+            Main projects
           </h4>
           <div className="space-y-2">
             {projects.map((project, index) => (

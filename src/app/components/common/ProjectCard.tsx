@@ -1,11 +1,12 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
+import Image, { StaticImageData } from "next/image";
 
 interface ProjectCardProps {
   title: string;
   description: string;
   technologies: string[];
-  image: string;
+  image: StaticImageData;
   githubUrl?: string;
   liveUrl?: string;
   delay?: number;
@@ -27,7 +28,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     >
       {/* Project Image */}
       <div className="relative h-48 overflow-hidden">
-        <img
+        <Image
+          width={500}
+          height={500}
           src={image}
           alt={title}
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
@@ -73,7 +76,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           {githubUrl && (
             <button className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground border border-border rounded-md hover:bg-accent transition-colors">
               <Github className="w-4 h-4" />
-              Codice
+              Code
             </button>
           )}
           {liveUrl && (
