@@ -1,6 +1,7 @@
 import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 interface ProjectCardProps {
   title: string;
@@ -74,10 +75,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         {/* Action Buttons */}
         <div className="flex space-x-3">
           {githubUrl && (
-            <button className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground border border-border rounded-md hover:bg-accent transition-colors">
+            <Link
+              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground border border-border rounded-md hover:bg-accent transition-colors"
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="w-4 h-4" />
               Code
-            </button>
+            </Link>
           )}
           {liveUrl && (
             <button className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-background bg-primary hover:bg-primary/90 rounded-md transition-colors">

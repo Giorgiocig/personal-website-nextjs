@@ -6,6 +6,7 @@ import streetBoulderTrackerImg from "../../../../public/streetBoulderTracker.web
 import webscraperImg from "../../../../public/webscraper.webp";
 import iceCreamImg from "../../../../public/myicecream.webp";
 import personalPortfolioImg from "../../../../public/personalWbsite.webp";
+import Link from "next/link";
 const projects = [
   {
     title: "Covid-19 Dashboard",
@@ -62,7 +63,10 @@ const projects = [
 
 const ProjectsSection: React.FC = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-blue-100 py-20 px-4">
+    <section
+      className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-blue-100 py-20 px-4"
+      id="id-Projects"
+    >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -114,19 +118,23 @@ const ProjectsSection: React.FC = () => {
         <div
           className="text-center animate-fade-in"
           style={{ animationDelay: "600ms" }}
+          id="id-Contact"
         >
           <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-2xl p-8 border border-purple-200/50">
             <Folder className="w-12 h-12 text-purple-600 mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
-              Hai un progetto in mente?
+              Do you have a project in mind?{" "}
             </h3>
             <p className="text-gray-600 mb-6 max-w-md mx-auto">
-              Sono sempre interessato a nuove sfide e collaborazioni. Parliamo
-              del tuo prossimo progetto!
+              I am always interested in new challenges and collaborations. Let's
+              talk about your next project!
             </p>
-            <button className="inline-flex items-center gap-2 px-8 py-3 text-lg font-medium text-white bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 rounded-md transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2">
-              Iniziamo a Collaborare
-            </button>
+            <Link
+              href="mailto:giorgiocignitti@gmail.com?subject=Info"
+              className="inline-flex items-center gap-2 px-8 py-3 text-lg font-medium text-white bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 rounded-md transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+            >
+              Let's start collaborate
+            </Link>
           </div>
         </div>
 
@@ -139,19 +147,19 @@ const ProjectsSection: React.FC = () => {
             <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-2">
               20+
             </div>
-            <p className="text-gray-600 font-medium">Progetti Completati</p>
+            <p className="text-gray-600 font-medium">Projects Completed</p>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent mb-2">
               15+
             </div>
-            <p className="text-gray-600 font-medium">Tecnologie Utilizzate</p>
+            <p className="text-gray-600 font-medium">Technology utilized</p>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-purple-600 bg-clip-text text-transparent mb-2">
               100%
             </div>
-            <p className="text-gray-600 font-medium">Clienti Soddisfatti</p>
+            <p className="text-gray-600 font-medium">Customers Satisfied</p>
           </div>
         </div>
       </div>

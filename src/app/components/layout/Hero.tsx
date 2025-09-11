@@ -1,5 +1,6 @@
 import { useTypedSuperpower } from "@/hooks/useTypedSuperPower";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import Link from "next/link";
 
 const HeroSection = () => {
   const superpowers = [
@@ -29,21 +30,27 @@ const HeroSection = () => {
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               My expertise spans web development with JavaScript, TypeScript,
-              along with data analysis and visualization using Python.
+              React along with data analysis and visualization using Python.
             </p>
             <span className="blinking-cursor">{typedSuperpower}</span>
           </div>
 
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in">
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-3 text-lg font-medium text-white bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 rounded-md transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2">
+            <Link
+              href="#id-Contact"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3 text-lg font-medium text-white bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 rounded-md transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
+            >
               <Mail className="h-5 w-5" />
               Contact
-            </button>
-            <button className="inline-flex items-center justify-center gap-2 px-8 py-3 text-lg font-medium text-foreground bg-transparent border-2 border-border hover:bg-accent hover:text-accent-foreground rounded-md transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            </Link>
+            <Link
+              href="#id-Projects"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3 text-lg font-medium text-foreground bg-transparent border-2 border-border hover:bg-accent hover:text-accent-foreground rounded-md transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
               <Github className="h-5 w-5" />
               Projects
-            </button>
+            </Link>
           </div>
 
           {/* Social links */}
