@@ -1,5 +1,6 @@
 import { User, Heart, Code, Coffee } from "lucide-react";
-
+import sectionImage from "../../../../public/hero.webp";
+import Image from "next/image";
 const AboutSection = () => {
   const highlights = [
     {
@@ -47,8 +48,8 @@ const AboutSection = () => {
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   Hello! I am{" "}
                   <span className="font-semibold text-foreground">Giorgio</span>
-                  , Data analyst and web developer with a passion for
-                  technological innovation and data analysis .
+                  , web Developer and adata analyst with a passion for
+                  technological innovation.
                 </p>
 
                 <p className="text-muted-foreground leading-relaxed">
@@ -94,8 +95,10 @@ const AboutSection = () => {
               <div className="relative w-80 h-80 mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl rotate-6"></div>
                 <div className="relative bg-card rounded-2xl overflow-hidden shadow-xl">
-                  <img
-                    src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=400&h=400&q=80"
+                  <Image
+                    src={sectionImage}
+                    width={500}
+                    height={500}
                     alt="Marco - Data Scientist & Developer"
                     className="w-full h-full object-cover"
                   />
