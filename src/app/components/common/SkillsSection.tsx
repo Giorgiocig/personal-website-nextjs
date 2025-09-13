@@ -63,7 +63,7 @@ const SkillsSection: React.FC = () => {
           className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in"
           style={{ animationDelay: "200ms" }}
         >
-          {categories.map((category, index) => (
+          {categories.map((category) => (
             <div
               key={category.name}
               className="px-6 py-3 rounded-full bg-white/80 backdrop-blur-sm border border-white/20 hover:bg-white transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-lg"

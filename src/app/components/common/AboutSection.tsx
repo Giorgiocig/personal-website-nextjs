@@ -61,9 +61,9 @@ const AboutSection = () => {
                 </p>
 
                 <p className="text-muted-foreground leading-relaxed">
-                  When I'm not programming, I like to explore new technologies,
-                  contribute to open source projects, and share my knowledge
-                  with the community
+                  When I&apos;m not programming, I like to explore new
+                  technologies, contribute to open source projects, and share my
+                  knowledge with the community
                 </p>
               </div>
 

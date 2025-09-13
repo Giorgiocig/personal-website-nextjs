@@ -1,5 +1,5 @@
 import React from "react";
-import { Code, Folder, Rocket } from "lucide-react";
+import { Folder, Rocket } from "lucide-react";
 import ProjectCard from "./ProjectCard";
 import covidDashboardImg from "../../../../public/react dashboard.webp";
 import streetBoulderTrackerImg from "../../../../public/streetBoulderTracker.webp";
@@ -126,14 +126,14 @@ const ProjectsSection: React.FC = () => {
               Do you have a project in mind?{" "}
             </h3>
             <p className="text-gray-600 mb-6 max-w-md mx-auto">
-              I am always interested in new challenges and collaborations. Let's
-              talk about your next project!
+              I am always interested in new challenges and collaborations.
+              Let&apos;s talk about your next project!
             </p>
             <Link
               href="mailto:giorgiocignitti@gmail.com?subject=Info"
               className="inline-flex items-center gap-2 px-8 py-3 text-lg font-medium text-white bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 rounded-md transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
             >
-              Let's start collaborate
+              Let&apos;s start collaborate
             </Link>
           </div>
         </div>

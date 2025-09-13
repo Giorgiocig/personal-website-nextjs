@@ -1,7 +1,6 @@
 "use client";
 
 import Hero from "./components/layout/Hero";
-import About from "./components/layout/About";
 import MySkills from "./components/layout/MySkills";
 import ExperienceSection from "./components/layout/ExperienceSection";
 import ProjectsSection from "./components/common/ProjectSection";
