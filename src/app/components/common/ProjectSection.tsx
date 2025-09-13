@@ -45,7 +45,7 @@ const projects = [
     title: "My Ice Cream e-Commerce",
     description:
       "Jamstack application that leverages Strapi's CMS for seamless content updates and integrates with the Shopify Storefront API to provide a comprehensive e-commerce experience.",
-    technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
+    technologies: ["Nextjs", "Shopify Storefront", "Strapi"],
     image: iceCreamImg,
     githubUrl: "https://github.com/Giorgiocig/ice-cream-e-commerce",
     liveUrl: "#",
