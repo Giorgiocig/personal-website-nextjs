@@ -22,11 +22,11 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Main content */}
           <div className="mb-8 animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-emerald-600 to-blue-600 bg-clip-text text-transparent mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-emerald-600 to-blue-600 bg-clip-text text-transparent mb-5 pb-1">
               Hello, I am Giorgio
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold text-muted-foreground mb-6">
-              Web develoeper and Data analyst
+              Web developer and Data analyst
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               My expertise spans web development with JavaScript, TypeScript,
