@@ -83,7 +83,7 @@ const ProjectsSection: React.FC = () => {
         </div>
 
         {/* Filter Buttons */}
-        <div
+        {/* <div
           className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in"
           style={{ animationDelay: "200ms" }}
         >
@@ -96,7 +96,7 @@ const ProjectsSection: React.FC = () => {
           <button className="px-6 py-3 rounded-full bg-background/80 backdrop-blur-sm border border-border hover:bg-accent transition-all duration-300 hover:scale-105">
             Mobile
           </button>
-        </div>
+        </div> */}
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mb-16">

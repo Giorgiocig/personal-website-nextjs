@@ -6,7 +6,7 @@ const experiences = [
   {
     company: "Cénotélie",
     position: "Software Developer",
-    duration: "3 years",
+    duration: "4 years",
     location: "France",
     description:
       "Developed innovative software solutions for enterprise clients in the energy and aerospace sectors. Built and maintained internal projects, including custom eLearning platforms. Managed the development and ongoing maintenance of the company's corporate website and the Rustacean blog.",
@@ -14,6 +14,7 @@ const experiences = [
       "Network Editor and OgisToNemo modules for NEMO platform - ENGIE digital",
       "Artefact editor for eCollab platform - Collins",
       "Development and test of company website",
+      "Developement and test of company web app SkillsUp to manage training",
       "Development and test of Rustacean Blog",
     ],
     icon: Building2,
@@ -104,7 +105,7 @@ const ExperienceSection: React.FC = () => {
         >
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent mb-2">
-              6+
+              4
             </div>
             <p className="text-gray-600 font-medium">Years of experience</p>
           </div>

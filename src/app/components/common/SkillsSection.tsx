@@ -25,11 +25,16 @@ const skills = [
   { name: "PostgreSQL", level: 80, icon: Database, category: "Backend" },
   { name: "MongoDB", level: 80, icon: Database, category: "Backend" },
   { name: "NestJs", level: 80, icon: Smartphone, category: "Backend" },
+  { name: "FastApi", level: 80, icon: Smartphone, category: "Backend" },
 
   // Tools & Others
   { name: "Git", level: 90, icon: GitBranch, category: "Tools" },
   { name: "Docker", level: 75, icon: Layers, category: "Tools" },
   { name: "Figma", level: 85, icon: Palette, category: "Design" },
+
+  //Data Analysis
+  { name: "Pandas", level: 85, icon: Palette, category: "Data Analysis" },
+  { name: "Matplotlib", level: 85, icon: Palette, category: "Data Analysis" },
 ];
 
 const categories = [
@@ -98,21 +103,21 @@ const SkillsSection: React.FC = () => {
         >
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
-              3+
+              4
             </div>
-            <p className="text-gray-600 font-medium">Anni di Esperienza</p>
+            <p className="text-gray-600 font-medium">Years of Experience</p>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent mb-2">
               50+
             </div>
-            <p className="text-gray-600 font-medium">Progetti Completati</p>
+            <p className="text-gray-600 font-medium">Projects Completed</p>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">
-              12+
+              15+
             </div>
-            <p className="text-gray-600 font-medium">Tecnologie Utilizzate</p>
+            <p className="text-gray-600 font-medium">Technology Utilized</p>
           </div>
         </div>
       </div>
