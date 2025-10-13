@@ -55,15 +55,27 @@ const HeroSection = () => {
 
           {/* Social links */}
           <div className="flex justify-center space-x-6 mb-16 animate-fade-in">
-            <button className="inline-flex items-center justify-center w-12 h-12 text-muted-foreground bg-transparent hover:bg-primary/10 hover:text-primary rounded-full transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            <a
+              href="https://github.com/Giorgiocig"
+              target="_blank"
+              className="inline-flex items-center justify-center w-12 h-12 text-muted-foreground bg-transparent hover:bg-primary/10 hover:text-primary rounded-full transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
               <Github className="h-5 w-5" />
-            </button>
-            <button className="inline-flex items-center justify-center w-12 h-12 text-muted-foreground bg-transparent hover:bg-primary/10 hover:text-primary rounded-full transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            </a>
+
+            <a
+              href="https://www.linkedin.com/notifications/?filter=all"
+              target="_blank"
+              className="inline-flex items-center justify-center w-12 h-12 text-muted-foreground bg-transparent hover:bg-primary/10 hover:text-primary rounded-full transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
               <Linkedin className="h-5 w-5" />
-            </button>
-            <button className="inline-flex items-center justify-center w-12 h-12 text-muted-foreground bg-transparent hover:bg-primary/10 hover:text-primary rounded-full transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            </a>
+            <a
+              href="mailto:giorgiocignitti@gmail.com"
+              className="inline-flex items-center justify-center w-12 h-12 text-muted-foreground bg-transparent hover:bg-primary/10 hover:text-primary rounded-full transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
               <Mail className="h-5 w-5" />
-            </button>
+            </a>
           </div>
 
           {/* Scroll indicator */}
