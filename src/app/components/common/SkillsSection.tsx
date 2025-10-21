@@ -25,7 +25,7 @@ const skills = [
   { name: "PostgreSQL", level: 80, icon: Database, category: "Backend" },
   { name: "MongoDB", level: 80, icon: Database, category: "Backend" },
   { name: "NestJs", level: 80, icon: Smartphone, category: "Backend" },
-  { name: "FastApi", level: 80, icon: Smartphone, category: "Backend" },
+  { name: "Django", level: 80, icon: Smartphone, category: "Backend" },
 
   // Tools & Others
   { name: "Git", level: 90, icon: GitBranch, category: "Tools" },
