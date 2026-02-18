@@ -6,7 +6,7 @@ const experiences = [
   {
     company: "Cénotélie",
     position: "Software Developer",
-    duration: "4 years",
+    duration: "5 years",
     location: "France",
     description:
       "Developed innovative software solutions for enterprise clients in the energy and aerospace sectors. Built and maintained internal projects, including custom eLearning platforms. Managed the development and ongoing maintenance of the company's corporate website and the Rustacean blog.",
@@ -23,7 +23,7 @@ const experiences = [
     company: "Univesity of Montpellier",
     position: "PhD",
     duration: "3 years",
-    location: "Italy",
+    location: "Montpellier, France",
     description:
       "Extensive research experience in the field of neuroscience. Developing Python skills for data analysis and data visualization in scientific research.",
     projects: [
@@ -89,9 +89,7 @@ const ExperienceSection: React.FC = () => {
             <div className="relative">
               <div className="w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-4 border-white shadow-lg" />
               <div className="absolute -bottom-8 left-10 transform -translate-x-1/2 text-center">
-                <p className="text-sm font-semibold text-blue-600">
-                  {new Date().getFullYear() - 6}
-                </p>
+                <p className="text-sm font-semibold text-blue-600">2017</p>
                 <p className="text-xs text-gray-500">Start PhD</p>
               </div>
             </div>
@@ -105,7 +103,7 @@ const ExperienceSection: React.FC = () => {
         >
           <div className="text-center">
             <div className="text-4xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent mb-2">
-              4
+              5
             </div>
             <p className="text-gray-600 font-medium">Years of experience</p>
           </div>

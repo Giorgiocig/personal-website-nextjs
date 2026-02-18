@@ -22,7 +22,7 @@ export default function About() {
             I am Giorgio Cignitti, web developer with a background in life
             science and a passion for web development and coding. I hold a
             doctorate degree in neuroscience from Montpellier University and I
-            have 4 years of experience as Python developer and 3 years as web
+            have 8 years of experience as Python developer and 5 years as web
             developer.
           </p>
 
